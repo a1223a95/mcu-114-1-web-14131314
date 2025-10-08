@@ -26,6 +26,19 @@ nav {
   width: 250px;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ul > li {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 80px;
+  text-align: center;
+}
+
 input[type="text"] {
   width: 200px;
   height: 25px;
