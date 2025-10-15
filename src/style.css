@@ -20,15 +20,11 @@ nav {
   margin-bottom: 10px;
 }
 
-.card {
-  border: solid 1px #999;
-  border-radius: 8px;
-  width: 250px;
-}
-
 ul {
   list-style: none;
   padding: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul > li {
@@ -89,6 +85,18 @@ td.company {
 td.price {
   width: 100px;
   text-align: right;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card {
+  border: solid 1px #999;
+  border-radius: 8px;
+  width: 250px;
 }
 
 footer {
