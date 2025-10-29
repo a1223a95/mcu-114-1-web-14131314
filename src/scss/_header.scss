@@ -44,7 +44,7 @@ header {
           text-decoration: inherit;
 
           &:hover {
-            color: #137fec;
+            color: var(--primary-color);
           }
         }
       }
